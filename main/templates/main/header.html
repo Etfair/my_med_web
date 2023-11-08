@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
+      <div class="offcanvas-body">
+        <div class="navbar-nav flex-grow-1 justify-content-between">
+            <div class="group btn">
+                <a class="btn btn-dark" href="{% url 'category_list' %}" role="button">
+                    <img src="/media/icons/home-outline.svg" alt="" style="width: 24px;">
+                    Главная</a>
+                <a class="btn btn-dark" href="{% url 'blog' %}" role="button">
+                    <img src="/media/icons/heart-outline.svg" alt="" style="width: 24px;">
+                    Блог</a>
+            </div>
+          <div class="dropdown">
+              <div class="drop btn btn-dark rounded-pill px-3" type="button">
+                  <img src="/media/icons/grid-outline.svg" alt="" style="width: 24px;">
+                  Меню
+                  <div class="dropdown-content">
+                      {% if user.is_authenticated %}
+                          <a href="{% url 'users:profile' %}">Профиль</a>
+                          <a href="{% url 'users:logout' %}">Выход</a>
+                      {% else %}
+                          <a href="{% url 'users:login' %}">Войти</a>
+                          <a href="{% url 'users:register' %}">Регистрация</a>
+                      {% endif %}
+                      <a href="{% url 'comment_list' %}">Отзывы</a>
+                      <a href="{% url 'contacts' %}">Контакты</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

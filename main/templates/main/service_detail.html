@@ -1,0 +1,28 @@
+{% extends 'main/index.html' %}
+{% load my_tags %}
+{% block content %}
+<div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+  <div class="col-auto d-none d-lg-block">
+    <img class="card-img-top" style="width: 650px; height: 380px;" src="{{ service.image|mediapath }}" alt="">
+  </div>
+  <div class="col">
+    <strong class="d-inline-block mb-2 text-primary-emphasis">{{ service.category }}</strong>
+    <h3 class="mb-0">{{ service.service_name }}</h3>
+    <p class="card-text mb-auto">{{ service.content }}</p>
+      <br>
+    {% if not user.is_authenticated %}
+      Чтобы увидеть больше информации необходимо войти или зарегистрироваться.
+    {% else %}
+      <a>На данную услугу можно записаться по телефону горячей линии указанный в контактах.</a>
+      <br>
+      <a href="{% url 'contacts' %}">Как с нами связаться</a>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
+
+{% if not user.is_authenticated %}
+    Для просмотра товара необходимо войти или зарегистрироваться.
+{% else %}
+    <a href="{% url 'view_product' object.pk %}" class="btn btn-lg btn-block btn-outline-primary">Информация</a>
+{% endif %}

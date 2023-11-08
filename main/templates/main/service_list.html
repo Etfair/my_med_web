@@ -1,0 +1,25 @@
+{% extends 'main/index.html' %}
+{% load my_tags %}
+{% block content %}
+{% for service in services %}
+<div class="col-md-6">
+  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+    <div class="col-auto d-none d-lg-block">
+      <img class="card-img-top" style="width: 650px; height: 380px;" src="{{ service.image|mediapath }}" alt="">
+    </div>
+    <div class="col">
+      <strong class="d-inline-block mb-2 text-primary-emphasis">{{ service.category }}</strong>
+      <h3 class="mb-0">{{ service.service_name }}</h3>
+      <p class="card-text mb-auto">{{ service.content }}</p>
+    </div>
+    <br>
+    <div class="d-flex justify-content-between align-items-center">
+    <button class="nav-link" type="submit">
+        <img src="/media/icons/github-outline.svg" alt="" style="width: 24px;">
+        <a href="{% url 'service_view' service.id %}">Подробнее...</a>
+    </button>
+</div>
+  </div>
+</div>
+{% endfor %}
+{% endblock %}

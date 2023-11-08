@@ -1,0 +1,44 @@
+body {
+    background-image: url('../../media/med02.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+html {
+  /* Растягиваем документ на всю высоту окна */
+  height: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  /* Растягиваем body по высоте html */
+  min-height: 100%;
+}
+
+
+main {
+   /* Выставляем отступ с высотой footer */
+  padding-bottom: 30px;
+
+}
+
+footer {
+  /* Позиционируем footer внизу main */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Высота footer */
+  height: 30px;
+}
+
+.nav-link {
+    color: black;
+}
+a {
+    color: black;
+}
