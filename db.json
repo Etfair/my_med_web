@@ -1,0 +1,868 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-10-31T11:28:25.039Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "Диагностика",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-10-31T11:28:31.127Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "Массаж",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-10-31T11:29:00.651Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "МРТ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-10-31T12:55:55.967Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "Хирургия",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-10-31T12:56:07.055Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "Мед",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-10-31T12:56:15.422Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "Медицинский блог",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u0430\\u0442\\u0435\\u0433\\u043e\\u0440\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-10-31T12:56:40.420Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Лечебный массаж",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-10-31T12:57:23.562Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ежедневный блог",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-10-31T12:57:58.346Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Услуги хирургии",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-11-01T14:02:42.676Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Медкомиссия",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-11-01T19:36:03.062Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Профилактический осмотр",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-11-04T12:21:13.552Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Профилактический осмотр",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-11-04T12:21:22.222Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Услуги хирургии",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-11-04T12:21:30.640Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Лечебный массаж",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-11-04T12:21:39.754Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ежедневный блог",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-11-04T12:56:21.696Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Медкомиссия",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-11-04T12:56:30.946Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "МРТ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-11-05T10:32:35.802Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Массаж ног",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-11-05T10:51:58.680Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Мануальный массаж",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-11-05T10:54:03.754Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Общий массаж",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-11-05T10:54:54.080Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Лечебный массаж",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-11-05T10:55:13.668Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Лечебный массаж",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-11-05T10:57:26.907Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Кардиология",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-11-05T11:07:55.460Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "Плановые операции",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-11-05T11:08:46.129Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "Косметическая хирургия",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-11-05T11:10:06.837Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Услуги хирургии",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-11-05T11:12:38.649Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "Нейрохирургия",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-11-05T11:14:38.910Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Медкомиссия",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-11-05T11:15:10.932Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "МРТ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-11-05T11:16:09.646Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Профилактический осмотр",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-11-05T12:01:20.712Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Comment object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-11-05T12:18:23.764Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Comment object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-11-05T13:31:56.871Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Comment object (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-11-05T13:33:28.445Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Comment object (4)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-11-05T13:34:03.837Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Comment object (5)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-11-05T14:17:28.002Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Comment object (6)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-11-05T14:17:59.067Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Comment object (7)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-11-08T07:54:44.937Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ежедневный блог",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2023-11-08T07:54:53.464Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "Медицинский блог",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2023-11-08T08:22:11.387Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Blog object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2023-11-08T08:24:09.975Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Blog object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2023-11-08T08:26:18.088Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Blog object (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2023-11-08T09:06:34.185Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Unfearble@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "d1uqxmv7qz8hwcmel1211oln6gzruljy",
+    "fields": {
+      "session_data": ".eJxVjEEOgjAQRe_StWmYprSDS_eegfzptIIaSCisjHdXEha6_e-9_zI9tnXot5qXflRzNmROv5sgPfK0A71jus02zdO6jGJ3xR602uus-Xk53L-DAXX41q6Nvig5kHRRfAJn1kIhhQRQbCS3hYuHCsDBNeIIHUWOUPbUsnl_AP4LOFg:1r0ebU:oGPsRm6XOYK90LqBOlBNCwYF2dd9P6Ikt0QoBTya7vg",
+      "expire_date": "2023-11-22T09:12:04.228Z"
+    }
+  },
+  {
+    "model": "main.category",
+    "pk": 1,
+    "fields": {
+      "name": "Диагностика"
+    }
+  },
+  {
+    "model": "main.category",
+    "pk": 2,
+    "fields": {
+      "name": "Массаж"
+    }
+  },
+  {
+    "model": "main.category",
+    "pk": 3,
+    "fields": {
+      "name": "Хирургия"
+    }
+  },
+  {
+    "model": "main.service",
+    "pk": 1,
+    "fields": {
+      "service_name": "МРТ",
+      "content": "Современный метод диагностики, направленный на выявление патологических и физиологических изменений в тканях и внутренних органах. МРТ проводится с использованием магнитных полей высокой мощности и высокочастотных радиоволн.",
+      "category": 1,
+      "image": "images/mrt.jpg",
+      "view_count": 6
+    }
+  },
+  {
+    "model": "main.service",
+    "pk": 2,
+    "fields": {
+      "service_name": "Лечебный массаж",
+      "content": "Лечебный массаж показан в следующих случаях:\r\nболи в спине,\r\nостеохондроз,\r\nсколиоз,\r\nзаболевания суставов,\r\nмалоподвижный образ жизни,\r\nискривление позвоночника,\r\nфизическое и психическое перенапряжение,\r\nспазмы мускулатуры.\r\nОчень полезен классический лечебный массаж в качестве профилактики заболеваний позвоночника и для поддержания нормального тонуса мышц.",
+      "category": 2,
+      "image": "images/massage.jpg",
+      "view_count": 0
+    }
+  },
+  {
+    "model": "main.service",
+    "pk": 4,
+    "fields": {
+      "service_name": "Услуги хирургии",
+      "content": "Терапевтические операции проводится для лечения ранее диагностированного заболевания.",
+      "category": 3,
+      "image": "images/hirg.jpg",
+      "view_count": 2
+    }
+  },
+  {
+    "model": "main.service",
+    "pk": 5,
+    "fields": {
+      "service_name": "Медкомиссия",
+      "content": "Определение пригодности человека для выполнения поручаемой ему работы и предупредить профзаболевания путем выявления их на начальной стадии. Также медосмотры нужны, чтобы установить медицинские противопоказания к осуществлению отдельных видов работ и обнаружить ранние признаки воздействия вредных и (или) опасных производственных факторов рабочей среды, трудового процесса на состояние здоровья работников.",
+      "category": 1,
+      "image": "images/med2.jpg",
+      "view_count": 10
+    }
+  },
+  {
+    "model": "main.service",
+    "pk": 6,
+    "fields": {
+      "service_name": "Профилактический осмотр",
+      "content": "Медицинский осмотр с целью которого является выявление каких-либо заболеваний на как можно более ранних стадиях, а также выявления факторов риска возникновения тех или иных болезней. Раннее выявление патологий позволяет избежать их осложнений, тем самым увеличить продолжительность и улучшить качество жизни.",
+      "category": 1,
+      "image": "images/diagn.jpg",
+      "view_count": 8
+    }
+  },
+  {
+    "model": "main.service",
+    "pk": 7,
+    "fields": {
+      "service_name": "Массаж ног",
+      "content": "Процедура помогает при: судорогах и спазмах в мышцах ног; болях в ногах; отеках нижних конечностей; ощущении тяжести в ногах; варикозном расширении вен; повышенном артериальном давлении; головной боли; онемении ног; бессоннице.",
+      "category": 2,
+      "image": "images/mass-nog.jpg",
+      "view_count": 0
+    }
+  },
+  {
+    "model": "main.service",
+    "pk": 8,
+    "fields": {
+      "service_name": "Мануальный массаж",
+      "content": "Основной задачей мануальной терапии является снятие болевого синдрома и восстановление мышц. Благодаря технике значительно повышается подвижность позвонков и суставов, устраняется давление на сосуды и нервные волокна, укрепляется мышечный корсет и выравнивается осанка. Амплитуды движения восстанавливаются во всех отделах позвоночника, мышечный тонус равномерно распределяется, проходит головная боль.",
+      "category": 2,
+      "image": "images/manyal.jpg",
+      "view_count": 4
+    }
+  },
+  {
+    "model": "main.service",
+    "pk": 9,
+    "fields": {
+      "service_name": "Общий массаж",
+      "content": "Массаж оказывает комплексное лечебное воздействие на организм, в том числе:\r\nукрепляет сердечно-сосудистую систему;\r\nулучшает работу сердца;\r\nустраняет застойные явления;\r\nположительно влияет на суставы и опорно-двигательный аппарат;\r\nулучшает обмен веществ, стимулирует питание тканей;\r\nблаготворно сказывается на работе центральной и периферических нервных систем;\r\nснимает стресс;\r\nподнимает жизненный тонус.",
+      "category": 2,
+      "image": "images/mass2.jpg",
+      "view_count": 0
+    }
+  },
+  {
+    "model": "main.service",
+    "pk": 10,
+    "fields": {
+      "service_name": "Кардиология",
+      "content": "Кардиология - обширный раздел медицины, занимающийся изучением сердечно-сосудистой системы человека: строения и развития сердца и сосудов, их функций, а также заболеваний, включая изучение причин их возникновения, механизмов развития, клинических проявлений, вопросов диагностики, а также разработку эффективных методов их лечения и профилактики.",
+      "category": 1,
+      "image": "images/card.jpg",
+      "view_count": 0
+    }
+  },
+  {
+    "model": "main.service",
+    "pk": 11,
+    "fields": {
+      "service_name": "Плановые операции",
+      "content": "Плановая операция проводится для коррекции состояния, не представляющего угрозы для жизни, и проводится в удобное для пациента время или при наличии хирурга и хирургического учреждения.",
+      "category": 3,
+      "image": "images/hirg2.jpg",
+      "view_count": 4
+    }
+  },
+  {
+    "model": "main.service",
+    "pk": 12,
+    "fields": {
+      "service_name": "Косметическая хирургия",
+      "content": "Проводится с целью субъективного улучшения внешнего вида нормальной структуры.",
+      "category": 3,
+      "image": "images/kosm.jpg",
+      "view_count": 0
+    }
+  },
+  {
+    "model": "main.service",
+    "pk": 13,
+    "fields": {
+      "service_name": "Нейрохирургия",
+      "content": "Это одна из отраслей хирургии, которая занимается лечением заболеваний нервной системы, головного и спинного мозга путем оперативного вмешательства. В компетенцию нейрохирургии входит диагностика и хирургическое лечение поражений центральной и периферической нервной системы, вызванных травмами, опухолями, патологическими и наследственными процессами в организме.",
+      "category": 3,
+      "image": "images/hirg3.jpg",
+      "view_count": 2
+    }
+  },
+  {
+    "model": "main.comment",
+    "pk": 1,
+    "fields": {
+      "name": "123",
+      "email": "unfy666@gmail.com",
+      "message": "Проверочка",
+      "create_at": "2023-11-05T12:01:20.708Z",
+      "service": 13
+    }
+  },
+  {
+    "model": "main.comment",
+    "pk": 2,
+    "fields": {
+      "name": "Андрей",
+      "email": "Unfearble@yandex.ru",
+      "message": "Вторая проверка",
+      "create_at": "2023-11-05T12:18:23.762Z",
+      "service": null
+    }
+  },
+  {
+    "model": "main.comment",
+    "pk": 3,
+    "fields": {
+      "name": "Тест Тестович",
+      "email": "test@test.ru",
+      "message": "Проверка поля для сообщения и большим содержанием символов. Далее идёт набор произвольного текста в рамках данного проекта для заполнения поля Message.",
+      "create_at": "2023-11-05T13:31:56.869Z",
+      "service": 2
+    }
+  },
+  {
+    "model": "main.comment",
+    "pk": 4,
+    "fields": {
+      "name": "Еще тест",
+      "email": "test@test.ru",
+      "message": "Маленький текст",
+      "create_at": "2023-11-05T13:33:28.444Z",
+      "service": 13
+    }
+  },
+  {
+    "model": "main.comment",
+    "pk": 6,
+    "fields": {
+      "name": "Андрей",
+      "email": null,
+      "message": "123",
+      "create_at": "2023-11-05T14:17:28.000Z",
+      "service": null
+    }
+  },
+  {
+    "model": "main.comment",
+    "pk": 7,
+    "fields": {
+      "name": "Андрей",
+      "email": null,
+      "message": "456",
+      "create_at": "2023-11-05T14:17:59.065Z",
+      "service": null
+    }
+  },
+  {
+    "model": "main.comment",
+    "pk": 8,
+    "fields": {
+      "name": "Андрей",
+      "email": null,
+      "message": "Тестирование из окна браузера уже",
+      "create_at": "2023-11-05T15:45:22.582Z",
+      "service": 11
+    }
+  },
+  {
+    "model": "main.blog",
+    "pk": 1,
+    "fields": {
+      "name": "Зарядка по утрам",
+      "content": "Одна из наиболее распространенных форм применения физкультуры. Зарядка состоит из комплекса физических упражнений умеренной нагрузки, охватывающих основную скелетную мускулатуру. Проводимая обычно после сна, зарядка тонизирует организм, повышая основные процессы жизнедеятельности (кровообращение, дыхание, обмен веществ и др.).",
+      "image": "images/blog1.jpg",
+      "create_at": "2023-11-08T08:22:11.385Z",
+      "view_count": 3
+    }
+  },
+  {
+    "model": "main.blog",
+    "pk": 2,
+    "fields": {
+      "name": "Сон",
+      "content": "Сон помогает мозгу избавиться от всего лишнего, «счищая» с нейронных соединений ненужные белки. Во время правильно протекающего сна организм восстанавливает силы, потраченные на дневную активность. Именно поэтому здоровый человек просыпается с ощущением свежести и прилива сил. У детей, длительно находящихся в большом коллективе, полноценный сон снимает усталость и возбуждение, повышает их работоспособность.",
+      "image": "images/blog2.jpeg",
+      "create_at": "2023-11-08T08:24:09.974Z",
+      "view_count": 4
+    }
+  },
+  {
+    "model": "main.blog",
+    "pk": 3,
+    "fields": {
+      "name": "Питание",
+      "content": "Многие отмечают, что правильное питание не является диетой. Но это не так. Ведь, в переводе с греческого, слово «диета» как раз и означает «образ жизни» или «рацион питания». И, если различные диеты строго ограничены временными рамками, так как являются стрессом для организма, то диеты ПП можно придерживаться в течение всей жизни. И вряд ли найдётся хоть один человек, которому будет противопоказано правильное питание.",
+      "image": "images/blog3.jpg",
+      "create_at": "2023-11-08T08:26:18.086Z",
+      "view_count": 3
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$6RBAEG5sq44usXwZWzFosd$KDJcOW4YXQc6roQJR/w0jrHPYS3h8D27/2QnpPVxVCA=",
+      "last_login": "2023-11-08T09:12:04.226Z",
+      "is_superuser": true,
+      "first_name": "Admin",
+      "last_name": "",
+      "is_staff": true,
+      "date_joined": "2023-10-31T11:20:16.542Z",
+      "email": "and90dmb@mail.ru",
+      "is_active": true,
+      "rnd_key": 0,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$LRY2Lgt15gEn2PKMvpjuZi$dqKJPD3ZFbLpHqHMHZ3l5bdyrnKIKbmxih4MZbIxDnE=",
+      "last_login": "2023-11-08T09:07:05.789Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "date_joined": "2023-11-08T09:03:10Z",
+      "email": "Unfearble@yandex.ru",
+      "is_active": true,
+      "rnd_key": 1376828150,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
