@@ -25,6 +25,7 @@
 заполните поля email, PASSWORD. users/management/commands/ccsu.py 
 
 Команда для Windows - python manage.py ccsu
+python manage.py loaddata db.json - для загрузки информации для базы данных
 
 Для запуска приложения: Команда для Windows:
 
