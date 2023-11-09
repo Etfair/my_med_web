@@ -12,8 +12,3 @@ class User(AbstractUser):
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []
-
-    def add_mailing_group(self):
-        mailing_group = Group.objects.get(name='manager')
-        if self.groups.filter(id=mailing_group.id).exists():
-            self.groups.add(mailing_group)

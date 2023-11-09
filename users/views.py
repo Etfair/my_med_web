@@ -27,7 +27,7 @@ class LogoutView(BaseLogoutView):
 class RegisterView(CreateView):
     model = User
     form_class = UserRegistrForm
-    success_url = reverse_lazy('users:email_confirmation')
+    success_url = reverse_lazy('category_list')
 
     def form_valid(self, form):
         user = form.save()
@@ -35,9 +35,6 @@ class RegisterView(CreateView):
         user.save()
         user = form.save(commit=False)
         user.save()
-        if form.is_valid():
-            my_group = Group.objects.get(name='manager')
-            my_group.user_set.add(user)
 
         verify_url = reverse('users:verify_email', args=[user.rnd_key])
         verify_link = self.request.build_absolute_uri(verify_url)
