@@ -2,7 +2,6 @@ from random import randint
 
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.contrib.auth.models import Group
 from django.contrib.auth.views import LoginView as BaseLoginView
 from django.contrib.auth.views import LogoutView as BaseLogoutView
 from django.core.mail import send_mail
@@ -40,7 +39,8 @@ class RegisterView(CreateView):
         verify_link = self.request.build_absolute_uri(verify_url)
         send_mail(
             subject='Подтвердите свой электронный адрес',
-            message=f'Пожалуйста, перейдите по следующей ссылке, чтобы подтвердить свой адрес электронной почты: {verify_link}',
+            message=f'Пожалуйста, перейдите по следующей ссылке, чтобы подтвердить свой адрес электронной почты:'
+                    f'{verify_link}',
             from_email='Unfearble@yandex.ru',
             recipient_list=[user.email, ],
             fail_silently=False
@@ -92,4 +92,3 @@ def generate_new_password(request):
     request.user.set_password(new_password)
     request.user.save()
     return redirect(reverse('mail'))
-

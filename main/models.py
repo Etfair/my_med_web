@@ -37,7 +37,8 @@ class Comment(models.Model):
     email = models.CharField(max_length=100, **NULLABLE, verbose_name='Email')
     message = models.TextField(max_length=500, **NULLABLE, verbose_name='отзыв')
     create_at = models.DateTimeField(auto_now_add=True, **NULLABLE, verbose_name='Дата создания')
-    service = models.ForeignKey('Service', related_name="comment", **NULLABLE, on_delete=models.CASCADE, verbose_name='услуга')
+    service = models.ForeignKey('Service', related_name="comment", **NULLABLE, on_delete=models.CASCADE,
+                                verbose_name='услуга')
 
     class Meta:
         verbose_name = 'Комментарий'
