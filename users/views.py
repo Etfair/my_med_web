@@ -26,7 +26,7 @@ class LogoutView(BaseLogoutView):
 class RegisterView(CreateView):
     model = User
     form_class = UserRegistrForm
-    success_url = reverse_lazy('category_list')
+    success_url = reverse_lazy('users:email_confirmation')
 
     def form_valid(self, form):
         user = form.save()

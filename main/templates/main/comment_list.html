@@ -2,11 +2,11 @@
 {% load my_tags %}
 {% block content %}
 <div class="col-12 mb-5">
-<a class="btn btn-lg btn-block btn-outline-dark" href="{% url 'comment_create' %}">Добавить отзыв</a>
+<a class="btn btn-lg btn-block btn-light" href="{% url 'comment_create' %}">Добавить отзыв</a>
 </div>
 {% for object in object_list %}
 <div class="col-md-auto">
-  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+  <div class="card text-center mb-4 box-shadow">
     <div class="col-auto">
       <div class="header-card">
           <strong class="d-inline-block mb-2 text-primary-emphasis">{{ object.name }}</strong>
